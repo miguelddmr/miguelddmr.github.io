@@ -17,6 +17,8 @@ body
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
+    text-align: center;
+    
 }
 
 header
@@ -25,27 +27,41 @@ header
     text-align: center;
     margin-bottom: 20px;
     text-decoration: none;
-    font-size: 300%;
+    
 }
+
+/* Utilizei o li para criar um espaçamento entre os elementos da nav*/
+li
+{
+    padding-left:1%;
+    padding-right: 1%;
+    display: inline;
+}
+
 
 a
 {
     text-decoration: none;
     color: white;
     background-color: black;
+    font-size: 100%;
+
 }
 
 a:hover
 {
     text-decoration: none;
-    color: white;
+    color: gray;
     background-color: black;
+    font-size: 110%;
+
 }
 
 main
 {
     margin-top: 10px;
     margin-bottom: 10px;
+
 }
 
 footer
@@ -53,10 +69,7 @@ footer
     margin-bottom: 10px;
 }
 
-li
-{
-    display: inline;
-}
+
 
 img
 {
@@ -81,28 +94,34 @@ h1
     display: inline;
     margin-top: 5px;
     margin-bottom: 10px;
+    font-size: 500%;
 }
 
 h2
 {
     display: inline;
-    margin-top: 4px;
-    margin-bottom: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 400%;
+    
 }
+    
 
 h3
 {
     display: inline;
+    font-size: 200%;
 }
 
 p
 {
     margin-top: 1px;
     margin-bottom: 1px;
+    font-size: 100%;
 }
 
 hr
 {
-    margin-top: 4px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
