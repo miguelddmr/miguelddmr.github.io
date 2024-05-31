@@ -33,7 +33,7 @@ header
     
 }
 
-/* Utilizei o li para criar um espaçamento entre os elementos da nav*/
+/* Utilizei o li para criar um espaçamento entre a lista dos elementos da nav*/
 li,ul
 {
     padding-left:1%;
@@ -71,7 +71,10 @@ main
 
 footer
 {
-    margin-bottom: 10px;
+  
+    margin-top: 10px;
+    margin-bottom: 50px;
+    
 }
 
 
@@ -86,18 +89,6 @@ img
 }
 
 
-
-
-video
-{
-    width: 100%;
-}
-
-audio
-{
-    height: 10x;
-    align-items: center;
-}
 
 h1
 {
@@ -166,6 +157,12 @@ body
   {
     column-count:1;
   }
+  .contactos{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
 }
 
 
@@ -180,6 +177,13 @@ body
   {
     column-count:1;
   }
+  .contactos{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
 }
 
 
@@ -195,6 +199,16 @@ body
   {
     column-count:2;
   }
+ 
+  .contactos{
+    display: flex;
+    flex-direction: row;
+    gap: 75px;
+}
+
+.contactos{
+    padding-top: 15%;
+}
 }
 
 
@@ -207,30 +221,23 @@ body
   }
 }
 
-
-/*
-.container
-{
+.contactos{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 1%;
+    gap: 50px;
+    
+    
+}
 
-}   
+.icon{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    
+}
 
-.container.box
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-
-}   
-
-..container.box.photo
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}   */
